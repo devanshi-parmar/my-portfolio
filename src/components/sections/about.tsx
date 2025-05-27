@@ -75,7 +75,7 @@ export default function About() {
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 6, repeat: Infinity }}
               src={myImage}
-              alt="Devanshi Parmar - Senior Software Engineer"
+              alt="Devanshi Parmar - React Application Developer"
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
             />
             <div className="absolute -bottom-6 -right-6 bg-primary/20 w-32 h-32 rounded-full blur-2xl"></div>

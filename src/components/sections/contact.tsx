@@ -274,32 +274,6 @@ export default function Contact() {
                 );
               })}
             </div>
-            
-            <div className="pt-8">
-              <Button
-                variant="outline"
-                className="bg-surface/50 hover:bg-surface/70 text-slate-200 border-slate-600 hover:scale-105 transition-all duration-300"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                Download Resume
-              </Button>
-            </div>
-            
-            {/* <div className="pt-6">
-              <h4 className="font-semibold text-slate-200 mb-4">Follow me</h4>
-              <div className="flex space-x-4">
-                {socialLinks.map((link, index) => (
-                  <motion.a
-                    key={index}
-                    href={link.href}
-                    whileHover={{ scale: 1.1 }}
-                    className={`w-10 h-10 ${link.color} rounded-full flex items-center justify-center transition-transform duration-300`}
-                  >
-                    {link.icon}
-                  </motion.a>
-                ))}
-              </div>
-            </div> */}
           </motion.div>
         </div>
       </div>

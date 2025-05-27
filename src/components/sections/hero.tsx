@@ -30,7 +30,7 @@ export default function Hero() {
               Devanshi Parmar
             </h1>
             <h2 className="text-2xl md:text-3xl font-bold text-slate-300 mb-8">
-              Senior Software Engineer
+              React Application Developer
             </h2>
             <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
               Building intuitive, high-impact web and mobile apps that blend performance with purpose.
