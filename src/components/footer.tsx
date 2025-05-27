@@ -10,10 +10,9 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:alex.rodriguez@email.com", label: "Email" },
-    { icon: Twitter, href: "#", label: "Twitter" }
+    { icon: Github, href: "https://github.com/devanshi-parmar", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/devansshi-parmar-58726484/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:devanshiparmar44@gmail.com", label: "Email" },
   ];
 
   return (
@@ -26,7 +25,7 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-slate-200 mb-4">Alex Rodriguez</h3>
+            <h3 className="text-2xl font-bold text-slate-200 mb-4">Devanshi Parmar</h3>
             <p className="text-slate-400 leading-relaxed">
               Senior Frontend Developer passionate about creating exceptional digital experiences that make a difference.
             </p>
@@ -77,18 +76,6 @@ export default function Footer() {
             </div>
           </motion.div>
         </div>
-        
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="border-t border-slate-700 pt-8 text-center"
-        >
-          <p className="text-slate-400">
-            © 2024 Alex Rodriguez. Built with ❤️ using React and modern web technologies.
-          </p>
-        </motion.div>
       </div>
     </footer>
   );

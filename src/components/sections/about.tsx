@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Heart, Users, Lightbulb, Rocket } from "lucide-react";
+import myImage from '../../assets/profile.jpeg';
 
 export default function About() {
   const values = [
@@ -34,13 +35,13 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              With over 7 years of experience in frontend development, I'm passionate about creating digital experiences that make a real difference. My journey began with a curiosity about how websites work, and it's evolved into a deep commitment to crafting performant, accessible, and beautiful web applications.
+              With over 7 years of experience in frontend development, I specialize in building performant, accessible, and intuitive web and mobile applications that make a real difference. What began as a curiosity about how digital products work has grown into a passion for crafting seamless experiences across platforms.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              I believe that great software is built at the intersection of technical excellence and human empathy. Whether I'm optimizing load times, implementing complex UIs, or mentoring junior developers, I'm driven by the impact our work has on real people's lives.
+              I believe great software is built at the intersection of technical excellence and human empathy. Whether I'm optimizing performance, designing responsive UIs, or mentoring junior developers, I'm always focused on the real-world impact of our work.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing insights through technical writing. I'm constantly learning and growing, because in this field, curiosity isn't just an asset—it's essential.
+              Outside of coding, you’ll find me exploring new technologies, contributing to open source projects, or sharing insights through technical writing. In this ever-evolving field, curiosity isn't just an asset—it’s essential.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-6">
@@ -73,8 +74,8 @@ export default function About() {
             <motion.img
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 6, repeat: Infinity }}
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000"
-              alt="Alex Rodriguez - Senior Frontend Developer"
+              src={myImage}
+              alt="Devanshi Parmar - Senior Software Engineer"
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
             />
             <div className="absolute -bottom-6 -right-6 bg-primary/20 w-32 h-32 rounded-full blur-2xl"></div>

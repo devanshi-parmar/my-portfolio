@@ -4,42 +4,42 @@ import { TrendingUp, Users as UsersIcon, Code2, Database, Zap, Shield } from "lu
 export default function Experience() {
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Solutions",
-      period: "2021 - Present",
-      description: "Led frontend development for enterprise applications serving 50k+ users. Architected scalable React solutions and mentored a team of 5 developers.",
+      title: "Custom Software Engineering Sr. Analyst",
+      company: "Accenture Solutions Private Limited",
+      period: "2021 - 2024",
+      description: "Delivered scalable web applications by designing and implementing responsive interfaces using React.js, Redux, and TypeScript, Javascript, Node.js, Guidewire-Jutro, improving usability and reducing maintenance efforts for enterprise clients.",
       achievements: [
         { icon: TrendingUp, text: "Improved app performance by 45%", color: "text-green-400" },
         { icon: UsersIcon, text: "Mentored 5 junior developers", color: "text-blue-400" },
         { icon: Code2, text: "Architected component library", color: "text-purple-400" }
       ],
-      technologies: ["React", "TypeScript", "Node.js"],
+      technologies: ["React", "TypeScript", "JavaScript", "Node.js", "Guidewire", "Jutro"],
       color: "bg-primary"
     },
     {
-      title: "Frontend Developer",
-      company: "InsuranceTech Inc.",
+      title: "Software Engineer L2",
+      company: "Indianic Infotech Limited",
       period: "2019 - 2021",
-      description: "Specialized in Guidewire implementations and custom Jutro components. Built responsive insurance portals and integrated complex APIs.",
+      description: "Delivered high-performance web and mobile solutions for large-scale projects including - Insurance, eCommerce, Portals, Dashboards leveraging technologies like, React-Native, React.js, TypeScript, JavaScript and Node.js.",
       achievements: [
         { icon: Zap, text: "Reduced page load time by 60%", color: "text-green-400" },
-        { icon: Database, text: "Built responsive mobile-first designs", color: "text-blue-400" },
+        { icon: UsersIcon, text: "Delegated tasks, monitored progress and conducted interviews", color: "text-blue-400" },
         { icon: Shield, text: "Implemented security best practices", color: "text-purple-400" }
       ],
-      technologies: ["Guidewire", "Jutro", "React"],
+      technologies: ["React", "React-Native", "JavaScript", "TypeScript", "Node.js"],
       color: "bg-accent"
     },
     {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
+      title: "Software Developer",
+      company: "Intuz Solutions Private Limited",
       period: "2017 - 2019",
-      description: "Built the entire frontend and backend infrastructure from scratch. Worked in a fast-paced startup environment with rapid iteration cycles.",
+      description: "Enhanced development efficiency and consistency by contributing to scalable React applications, building reusable component libraries and implementing robust design patterns, reducing development time by 25%.",
       achievements: [
         { icon: Code2, text: "Deployed 50+ features in 6 months", color: "text-green-400" },
-        { icon: Database, text: "Designed scalable database architecture", color: "text-blue-400" },
+        { icon: UsersIcon, text: "Mentored 2 junior developers", color: "text-blue-400" },
         { icon: TrendingUp, text: "Achieved 99.9% uptime", color: "text-purple-400" }
       ],
-      technologies: ["JavaScript", "Node.js", "PostgreSQL"],
+      technologies: ["React-Native", "JavaScript", "Node.js"],
       color: "bg-green-400"
     }
   ];
@@ -52,23 +52,11 @@ export default function Experience() {
       color: "bg-blue-500/20"
     },
     {
-      title: "Google Data Analytics",
-      type: "Professional Certificate",
-      icon: "📈",
-      color: "bg-green-500/20"
-    },
-    {
-      title: "Guidewire Digital Portal",
+      title: "Guidewire Certified Specialist - EnterpriseEngage Config",
       type: "Certified Developer",
       icon: "🛡️",
       color: "bg-red-500/20"
     },
-    {
-      title: "AWS Certified",
-      type: "Cloud Practitioner",
-      icon: "☁️",
-      color: "bg-purple-500/20"
-    }
   ];
 
   return (
@@ -167,7 +155,7 @@ export default function Experience() {
           className="mt-20"
         >
           <h3 className="text-3xl font-bold text-center mb-12 text-slate-200">Certifications & Credentials</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             {certifications.map((cert, index) => (
               <motion.div
                 key={cert.title}

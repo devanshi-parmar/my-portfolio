@@ -69,25 +69,25 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "alex.rodriguez@email.com",
+      value: "devanshiparmar44@gmail.com",
       color: "bg-primary/20 text-primary"
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
-      value: "linkedin.com/in/alexrodriguez",
+      value: "linkedin.com/in/devansshi-parmar-58726484/",
       color: "bg-accent/20 text-accent"
     },
     {
       icon: Github,
       title: "GitHub",
-      value: "github.com/alexrodriguez",
+      value: "github.com/devanshi-parmar",
       color: "bg-green-500/20 text-green-400"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Toronto, ON",
       color: "bg-purple-500/20 text-purple-400"
     }
   ];
@@ -285,7 +285,7 @@ export default function Contact() {
               </Button>
             </div>
             
-            <div className="pt-6">
+            {/* <div className="pt-6">
               <h4 className="font-semibold text-slate-200 mb-4">Follow me</h4>
               <div className="flex space-x-4">
                 {socialLinks.map((link, index) => (
@@ -299,7 +299,7 @@ export default function Contact() {
                   </motion.a>
                 ))}
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

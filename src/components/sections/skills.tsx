@@ -7,19 +7,19 @@ export default function Skills() {
       title: "Frontend Technologies",
       icon: Code,
       color: "text-primary",
-      skills: ["React", "JavaScript", "TypeScript", "Node.js", "Tailwind CSS", "Next.js"]
+      skills: ["React", "Next.js", "Angular", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "SCSS", "SASS", "LESS", "Material UI", "Redux", "RxJS", "Jutro"]
     },
     {
       title: "Backend & Data",
       icon: Database,
       color: "text-accent",
-      skills: ["PostgreSQL", "Guidewire", "Jutro", "MongoDB", "GraphQL", "REST APIs"]
+      skills: ["Node.js", "Python", "PostgreSQL", "Guidewire", "MongoDB", "GraphQL", "REST APIs", "Firebase", "AWS (Lambda, S3)", "Terraform", "Google Data Analytics", "Predictive Modeling"]
     },
     {
       title: "Tools & Workflow",
       icon: Settings,
       color: "text-green-400",
-      skills: ["Git", "Docker", "Azure", "Webpack", "Figma", "Jest"]
+      skills: ["Git", "Bitbucket", "Postman", "Jira", "Scrum", "Webpack", "Jest", "React Testing Library", "Chrome DevTools"]
     }
   ];
 

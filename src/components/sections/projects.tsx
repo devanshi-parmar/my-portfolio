@@ -1,59 +1,81 @@
 import { motion } from "framer-motion";
 import { Github, ExternalLink, CheckCircle } from "lucide-react";
+import project1 from '../../assets/project1.png';
+import project2 from '../../assets/project2.png';
+import project3 from '../../assets/project3.png';
+import project4 from '../../assets/project4.png';
+import project5 from '../../assets/project5.png';
+import project6 from '../../assets/project6.png';
 
 export default function Projects() {
   const projects = [
     {
-      title: "NextGen E-commerce Platform",
-      description: "Built a high-performance e-commerce platform handling 10k+ daily users. Implemented advanced filtering, real-time inventory updates, and seamless checkout experience.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+      title: "An Insurance Platform",
+      description: "Designed and developed a comprehensive insurance agent dashboard, customer portal, and landing page to modernize the agent-client experience.",
+      image: project1,
       achievements: [
-        "Improved load time by 40% through code splitting",
-        "Increased conversion rate by 25%",
-        "Built responsive design for all devices"
+        "Built responsive, accessible interface using React.js",
+        "Integrated Google Tag Manager for user tracking and analytics",
+        "Enabled digital signing via Adobe Sign",
+        "Integrated HubSpot API for CRM"
       ],
-      technologies: ["React", "Next.js", "Node.js", "Stripe API", "PostgreSQL"],
-      github: "#",
-      live: "#"
+      technologies: ["React.js", "Redux", "Google Tag Manager", "HubSpot API", "HTML5", "CSS3"]
     },
     {
-      title: "Advanced Analytics Dashboard",
-      description: "Created a comprehensive analytics platform with real-time data visualization, custom reporting, and interactive charts for business intelligence.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+      title: " Sales Dashboard – Food Chain",
+      description: "Created a comprehensive sales dashboard for a food chain built with Node.js, React, and Chart.js to visualize real-time sales metrics and trends.",
+      image: project2,
       achievements: [
-        "Processed 1M+ data points in real-time",
-        "Reduced report generation time by 60%",
-        "Implemented advanced filtering and exports"
+        "Developed data visualizations using Chart.js",
+        "Used AWS for cloud storage and Lambda functions",
+        "Optimized rendering and state management"
       ],
-      technologies: ["React", "D3.js", "GraphQL", "Redis", "WebSocket"],
-      github: "#",
-      live: "#"
+      technologies: ["React.js", "AWS (S3, Lambda)", "Node.js", "Redux", "Chart.js"]
     },
     {
-      title: "Guidewire Digital Portal",
-      description: "Developed a modern digital portal for insurance customers using Guidewire and Jutro framework, streamlining policy management and claims processing.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+      title: "Jewelers – Vendor Dashboard & Mobile App",
+      description: "Developed a responsive vendor dashboard and companion mobile app for real-time sales data and vendor management.",
+      image: project3,
       achievements: [
-        "Reduced policy processing time by 50%",
-        "Improved customer satisfaction by 35%",
-        "Migrated legacy system to modern architecture"
+        "Built using React.js and Angular.js",
+        "Ensured mobile responsiveness and data accuracy",
+        "Integrated dynamic data visualization"
       ],
-      technologies: ["Guidewire", "Jutro", "React", "JavaScript", "REST API"],
-      github: "#",
-      live: "#"
+      technologies: ["React.js", "Angular.js", "Redux", "React-Native"],
     },
     {
-      title: "Real-time Collaboration Platform",
-      description: "Built a real-time collaboration tool enabling teams to work together seamlessly with live document editing, video calls, and project management features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+      title: "IoT Mobile App",
+      description: "Built an IoT-powered mobile app to control pool pumps and lighting in real-time.",
+      image: project4,
       achievements: [
-        "Supported 500+ concurrent users",
-        "Achieved 99.9% uptime reliability",
-        "Integrated video conferencing API"
+        "Integrated MQTT for real-time control",
+        "Built notification system using Firebase",
+        "Designed intuitive control UI"
       ],
-      technologies: ["React", "Socket.io", "TypeScript", "WebRTC", "MongoDB"],
-      github: "#",
-      live: "#"
+      technologies: ["React-Native", "MQTT", "Firebase"]
+    },
+    {
+      title: "Ride-Hailing App – Driver & Customer",
+      description: "Built cross-platform mobile apps to support seamless ride booking and driver communication.",
+      image: project5,
+      achievements: [
+        "Developed with React Native for iOS & Android",
+        "Used GraphQL for efficient data loading",
+        "Integrated Firebase Auth and notifications"
+      ],
+      technologies: ["React-Native", "GraphQL", "Redux", "Firebase"]
+    },
+    {
+      title: "Forex News Suggester – Web & Mobile",
+      description: "Full-stack app providing Forex trading suggestions based on market news sentiment analysis.",
+      image: project6,
+      achievements: [
+        "Built with React (web) and React Native (mobile) using Expo",
+        "Node.js backend with PostgreSQL for news storage and signal generation",
+        "Integrated NewsAPI and Sentiment analysis for real-time market insights"
+      ],
+      technologies: ["React", "React Native", "Node.js", "PostgreSQL", "Express", "Sentiment", "NewsAPI"],
+      github: "https://github.com/devanshi-parmar/forex-insights"
     }
   ];
 
@@ -75,7 +97,7 @@ export default function Projects() {
             A showcase of my best work, demonstrating technical expertise and creative problem-solving
           </p>
         </motion.div>
-        
+
         <div className="grid lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <motion.div
@@ -95,30 +117,30 @@ export default function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
-              
+
               <div className="p-8">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold text-slate-200">{project.title}</h3>
                   <div className="flex space-x-3">
-                    <a
+                    {project.github && <a
                       href={project.github}
                       className="text-slate-400 hover:text-primary transition-colors"
                     >
                       <Github className="w-5 h-5" />
-                    </a>
-                    <a
-                      href={project.live}
+                    </a>}
+                    {/* {project?.live && <a
+                      href={project?.live}
                       className="text-slate-400 hover:text-accent transition-colors"
                     >
                       <ExternalLink className="w-5 h-5" />
-                    </a>
+                    </a>} */}
                   </div>
                 </div>
-                
+
                 <p className="text-slate-400 mb-6 leading-relaxed">
                   {project.description}
                 </p>
-                
+
                 <div className="mb-6">
                   <h4 className="text-sm font-semibold text-slate-300 mb-3">KEY ACHIEVEMENTS</h4>
                   <ul className="space-y-2 text-sm text-slate-400">
@@ -130,7 +152,7 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
-                
+
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
                     <motion.span
@@ -149,7 +171,7 @@ export default function Projects() {
             </motion.div>
           ))}
         </div>
-        
+
         <motion.div
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}

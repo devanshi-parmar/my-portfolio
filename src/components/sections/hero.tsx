@@ -27,13 +27,13 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-slate-50 via-primary to-accent bg-clip-text text-transparent">
-              Alex Rodriguez
+              Devanshi Parmar
             </h1>
             <h2 className="text-2xl md:text-3xl font-bold text-slate-300 mb-8">
-              Senior Frontend Developer
+              Senior Software Engineer
             </h2>
             <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Crafting pixel-perfect, high-performing web experiences that drive business growth and delight users
+              Building intuitive, high-impact web and mobile apps that blend performance with purpose.
             </p>
           </motion.div>
           
@@ -80,7 +80,7 @@ export default function Hero() {
               <Linkedin />
             </a>
             <a
-              href="mailto:alex.rodriguez@email.com"
+              href="mailto:devanshiparmar44@gmail.com"
               className="text-slate-400 hover:text-primary text-2xl transition-colors duration-300 hover:scale-110 transform"
             >
               <Mail />
