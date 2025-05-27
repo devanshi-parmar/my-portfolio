@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [
     react()
   ],
+  base: '/devanshi-parmar/',
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
