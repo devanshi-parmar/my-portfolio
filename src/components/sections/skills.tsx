@@ -4,6 +4,12 @@ import { Code, Database, Settings, Users } from "lucide-react";
 export default function Skills() {
   const skillCategories = [
     {
+      title: "Mobile Technologies",
+      icon: Code,
+      color: "text-primary",
+      skills: ["React Native", "Java / Kotlin", "Objective-C", "Expo", "Push Notifications", "App Deployments"]
+    },
+    {
       title: "Frontend Technologies",
       icon: Code,
       color: "text-primary",
