@@ -7,7 +7,7 @@ export default function Experience() {
       title: "Custom Software Engineering Sr. Analyst",
       company: "Accenture Solutions Private Limited",
       period: "2021 - 2024",
-      description: "Delivered scalable web applications by designing and implementing responsive interfaces using React.js, Redux, and TypeScript, Javascript, Node.js, Guidewire-Jutro, improving usability and reducing maintenance efforts for enterprise clients.",
+      description: "Delivered scalable web and mobile applications by designing and implementing responsive interfaces using React.js, React-Native, Kotli, Swift, Redux, and TypeScript, Javascript, Node.js, Guidewire-Jutro, improving usability and reducing maintenance efforts for enterprise clients.",
       achievements: [
         { icon: TrendingUp, text: "Improved app performance by 45%", color: "text-green-400" },
         { icon: UsersIcon, text: "Mentored 5 junior developers", color: "text-blue-400" },
@@ -33,7 +33,7 @@ export default function Experience() {
       title: "Software Developer",
       company: "Intuz Solutions Private Limited",
       period: "2017 - 2019",
-      description: "Enhanced development efficiency and consistency by contributing to scalable React applications, building reusable component libraries and implementing robust design patterns, reducing development time by 25%.",
+      description: "Enhanced development efficiency and consistency by contributing to scalable React-Native applications, building reusable component libraries and implementing robust design patterns, reducing development time by 25%.",
       achievements: [
         { icon: Code2, text: "Deployed 50+ features in 6 months", color: "text-green-400" },
         { icon: UsersIcon, text: "Mentored 2 junior developers", color: "text-blue-400" },
