@@ -35,10 +35,10 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              With over 7 years of experience in frontend development, I specialize in building performant, accessible, and intuitive web and mobile applications that make a real difference. What began as a curiosity about how digital products work has grown into a passion for crafting seamless experiences across platforms.
+              With over 7 years of experience in frontend and mobile development, I specialize in building performant, accessible, and intuitive applications that make a real difference—across both web and mobile platforms. What began as a curiosity about how digital products work has grown into a passion for crafting seamless, native-like experiences that fit right into users’ lives.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              I believe great software is built at the intersection of technical excellence and human empathy. Whether I'm optimizing performance, designing responsive UIs, or mentoring junior developers, I'm always focused on the real-world impact of our work.
+              I believe great software is built at the intersection of technical excellence and human empathy. Whether I’m optimizing app performance, designing responsive UIs, integrating native APIs, or mentoring junior developers, I stay focused on the real-world impact of our work.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
               Outside of coding, you’ll find me exploring new technologies, contributing to open source projects, or sharing insights through technical writing. In this ever-evolving field, curiosity isn't just an asset—it’s essential.
