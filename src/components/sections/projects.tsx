@@ -10,6 +10,51 @@ import project6 from '../../assets/project6.png';
 export default function Projects() {
   const projects = [
     {
+      title: "IoT Mobile App",
+      description: "Built an IoT-powered mobile app to control pool pumps and lighting in real-time.",
+      image: project4,
+      achievements: [
+        "Integrated MQTT for real-time control",
+        "Built notification system using Firebase",
+        "Designed intuitive control UI"
+      ],
+      technologies: ["React-Native", "MQTT", "Firebase", "Kotlin", "Swift"]
+    },
+    {
+      title: "Ride-Hailing App – Driver & Customer",
+      description: "Built cross-platform mobile apps to support seamless ride booking and driver communication.",
+      image: project5,
+      achievements: [
+        "Developed with React Native for iOS & Android",
+        "Used GraphQL for efficient data loading",
+        "Integrated Firebase Auth and notifications"
+      ],
+      technologies: ["React-Native", "GraphQL", "Redux", "Firebase", "Java/Kotlin", "Swift/Objective-C"]
+    },
+    {
+      title: "Jewelers – Vendor Dashboard & Mobile App",
+      description: "Developed a responsive vendor dashboard and companion mobile app for real-time sales data and vendor management.",
+      image: project3,
+      achievements: [
+        "Built using React.js and Angular.js",
+        "Ensured mobile responsiveness and data accuracy",
+        "Integrated dynamic data visualization"
+      ],
+      technologies: ["Redux", "React-Native", "Swift", "Kotlin", "App Deployment"],
+    },
+    {
+      title: "Forex News Suggester – Web & Mobile",
+      description: "Full-stack app providing Forex trading suggestions based on market news sentiment analysis.",
+      image: project6,
+      achievements: [
+        "Built with React (web) and React Native (mobile) using Expo",
+        "Node.js backend with PostgreSQL for news storage and signal generation",
+        "Integrated NewsAPI and Sentiment analysis for real-time market insights"
+      ],
+      technologies: ["React", "React Native", "Node.js", "PostgreSQL", "Express", "Sentiment", "NewsAPI"],
+      github: "https://github.com/devanshi-parmar/forex-insights"
+    },
+    {
       title: "An Insurance Platform",
       description: "Designed and developed a comprehensive insurance agent dashboard, customer portal, and landing page to modernize the agent-client experience.",
       image: project1,
@@ -31,52 +76,7 @@ export default function Projects() {
         "Optimized rendering and state management"
       ],
       technologies: ["React.js", "AWS (S3, Lambda)", "Node.js", "Redux", "Chart.js"]
-    },
-    {
-      title: "Jewelers – Vendor Dashboard & Mobile App",
-      description: "Developed a responsive vendor dashboard and companion mobile app for real-time sales data and vendor management.",
-      image: project3,
-      achievements: [
-        "Built using React.js and Angular.js",
-        "Ensured mobile responsiveness and data accuracy",
-        "Integrated dynamic data visualization"
-      ],
-      technologies: ["React.js", "Angular.js", "Redux", "React-Native"],
-    },
-    {
-      title: "IoT Mobile App",
-      description: "Built an IoT-powered mobile app to control pool pumps and lighting in real-time.",
-      image: project4,
-      achievements: [
-        "Integrated MQTT for real-time control",
-        "Built notification system using Firebase",
-        "Designed intuitive control UI"
-      ],
-      technologies: ["React-Native", "MQTT", "Firebase"]
-    },
-    {
-      title: "Ride-Hailing App – Driver & Customer",
-      description: "Built cross-platform mobile apps to support seamless ride booking and driver communication.",
-      image: project5,
-      achievements: [
-        "Developed with React Native for iOS & Android",
-        "Used GraphQL for efficient data loading",
-        "Integrated Firebase Auth and notifications"
-      ],
-      technologies: ["React-Native", "GraphQL", "Redux", "Firebase"]
-    },
-    {
-      title: "Forex News Suggester – Web & Mobile",
-      description: "Full-stack app providing Forex trading suggestions based on market news sentiment analysis.",
-      image: project6,
-      achievements: [
-        "Built with React (web) and React Native (mobile) using Expo",
-        "Node.js backend with PostgreSQL for news storage and signal generation",
-        "Integrated NewsAPI and Sentiment analysis for real-time market insights"
-      ],
-      technologies: ["React", "React Native", "Node.js", "PostgreSQL", "Express", "Sentiment", "NewsAPI"],
-      github: "https://github.com/devanshi-parmar/forex-insights"
-    }
+    },    
   ];
 
   return (
