@@ -36,11 +36,11 @@ export default function Projects() {
       description: "Developed a responsive vendor dashboard and companion mobile app for real-time sales data and vendor management.",
       image: project3,
       achievements: [
-        "Built using React.js and Angular.js",
+        "Built using React.js and Angular.js for web and React-Native for Mobile App.",
         "Ensured mobile responsiveness and data accuracy",
         "Integrated dynamic data visualization"
       ],
-      technologies: ["Redux", "React-Native", "Swift", "Kotlin", "App Deployment"],
+      technologies: ["Redux", "React-Native", "Swift", "Kotlin", "App Deployment", "React.js", "Angular.js"],
     },
     {
       title: "Forex News Suggester – Web & Mobile",
