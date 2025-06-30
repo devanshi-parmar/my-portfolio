@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import { Code, Database, Settings, Users } from "lucide-react";
+import { Code, Database, Settings, Users, Smartphone } from "lucide-react";
 
 export default function Skills() {
   const skillCategories = [
     {
       title: "Mobile Technologies",
-      icon: Code,
+      icon: Smartphone,
       color: "text-primary",
-      skills: ["React Native", "Java / Kotlin", "Objective-C", "Expo", "Push Notifications", "App Deployments"]
+      skills: ["React Native", "Java / Kotlin", "Objective-C", "Expo", "Google Analytics for Firebase", "Crashlytics ", "Detox", "Push Notifications", "App Deployments", "Firebase Performance Monitoring", "Android Profiler"]
     },
     {
       title: "Frontend Technologies",
